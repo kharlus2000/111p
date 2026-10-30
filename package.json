@@ -1,0 +1,21 @@
+{
+  "name": "xvideos-stremio-addon",
+  "version": "18.0.0",
+  "private": true,
+  "description": "Addon Stremio com catálogo, busca, capas e paginação.",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js",
+    "check": "node --check addon.js"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
